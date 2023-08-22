@@ -1,0 +1,103 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Portfolio</title>
+    <style>
+     body{
+        background-color: #ABA589 ;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Creating The Navigation Bar -->
+    <header>
+        <nav>
+           <ul class="Navigation">
+                
+            <a  href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="work">WORK</a>
+            <a href="resume">RESUME</a>
+            <a href="contact">CONTACT</a>
+
+            </ul>
+           
+        </nav>
+    </header>
+    <img src="https://public.bnbstatic.com/image/cms/blog/20220228/21f321c6-e744-4626-9010-85f51fb2c7c8.png" alt="Build a portfolio">
+
+    <!-- THE ABOUT SECTION -->
+    <section id="about">
+        <p  style="color:black  ;">The Portfolio plan is a new feature launching in Auto-Invest. Thanks to the convenience offered, allowing anyone to buy and manage multiple cryptocurrencies in one portfolio, the feature is arguably one of the easiest ways you can buy at least two types of cryptocurrencies over time. Users who are curious to see if Portfolio Plan is the right feature for them should understand what Auto-Invest is first.
+          
+        </p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="your name required">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="date of birth"><br>
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="submit">
+
+        </form>
+    </section><br>
+
+    <!-- Work Section -->
+    <section id="work">
+        <!-- work experience form -->
+        <form>
+            <label for="job">Job Title:</label>
+            <input type="text" id="job" placeholder="job title">
+            <label for="company">Company:</label>
+            <input type="text" id="company" placeholder="name of your company">
+            <label for="experience">Job Experience:</label>
+            <input type="number" id="years" placeholder="years"><br>
+            <input type="submit" value="submit"><br>
+        </form>
+
+        <!-- Resume section -->
+
+        <section id="resume">
+            <p>Resumes tell the employer about your experiences, skills and work history. Use your resume to highlight items that indicate you are a good worker, are qualified for the position and bring desirable skills to the job.</p>
+            <!--Resume form -->
+            <form>
+                <label for="resume file">Upload Resume PDF:</label>
+                <input type="file" id="resumefile" placeholder="upload file" accept=".pdf"><br>
+                <input type="submit" value="upload resume"><br>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h1>CONTACT US</h1>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email address"><br>
+                <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                  <input type="submit" value="submit">
+                
+                
+                
+            </form>
+        </section>
+
+</section>
+<footer>
+    <p>Author: Samuel Ademola</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+
+</footer>
+
+
+</body>
+</html>
